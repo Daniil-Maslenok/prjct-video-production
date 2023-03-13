@@ -1,0 +1,27 @@
+.title-info {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title-info__container {
+  min-height: 368px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 233px;
+}
+
+.title-info__title {
+  margin: 0 0 12px 0;
+  padding-top: 75px;
+  font-size: 72px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.title-info__text {
+  margin-bottom: 42px;
+  font-size: 18px;
+}

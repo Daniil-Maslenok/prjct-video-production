@@ -1,0 +1,51 @@
+.socials {
+  margin-right: 74px;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__link {
+  display: block;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+}
+.socials__item--icon--tg .socials__link {
+  background-image: url(../../img/socials/tg.png);
+}
+
+.socials__item--icon--tg .socials__link:hover {
+  background-image: url(../../img/socials/tg-hov.png);
+}
+
+.socials__item--icon--vk .socials__link {
+  background-image: url(../../img/socials/vk.png);
+}
+
+.socials__item--icon--vk .socials__link:hover {
+  background-image: url(../../img/socials/vk-hov.png);
+}
+
+.socials__item--icon--fb .socials__link {
+  background-image: url(../../img/socials/fb.png);
+}
+
+.socials__item--icon--fb .socials__link:hover {
+  background-image: url(../../img/socials/fb-hov.png);
+}
+
+.socials__item--icon--inst .socials__link {
+  background-image: url(../../img/socials/inst.png);
+}
+
+.socials__item--icon--inst .socials__link:hover {
+  background-image: url(../../img/socials/inst-hov.png);
+}

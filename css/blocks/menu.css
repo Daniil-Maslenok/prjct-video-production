@@ -1,0 +1,15 @@
+.menu {
+}
+
+.menu__item {
+  display: inline-block;
+  margin-right: 54px;
+}
+
+.menu__item:hover {
+  color: #ff3d00;
+}
+
+.menu__item:last-child {
+  margin-right: 0px;
+}

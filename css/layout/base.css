@@ -1,0 +1,27 @@
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  line-height: 1.42;
+  color: #fff;
+  background: #17191C;
+}
+
+a {
+  color: inherit;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  min-width: 1200px;
+}
+
+.main-page-wrapper {
+  background: url(../../img/main-hero.png) center top no-repeat, url(../../img/bottom-pic.png) center bottom 6px no-repeat;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
