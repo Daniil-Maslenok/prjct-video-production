@@ -7,10 +7,12 @@
   text-transform: uppercase;
   background: #ff5500;
   border-radius: 25px;
+  text-align: center;
 }
 
 .button:hover {
   background-color: #ff3d00;
+  transition: all 0.2s ease-in-out;
 }
 
 .title-info__button--wrapper {
@@ -39,4 +41,27 @@
 .button--small--size {
   padding: 17px 41px;
   width: 167px;
+}
+
+.hello-content__button {
+  width: 168px;
+  padding: 17px 56px;
+}
+
+.form__button {
+  width: 168px;
+  padding: 19px 35px;
+  margin-right: 13px;
+}
+
+.form__button:last-child {
+  margin-right: 0;
+}
+
+.button--grey {
+  background-color:  #8E8E8E;
+}
+
+.button--grey:hover {
+  background-color: #2B2B2B;
 }

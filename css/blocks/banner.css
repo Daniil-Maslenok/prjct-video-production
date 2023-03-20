@@ -1,0 +1,20 @@
+.banner {
+  background: url(../../img/concert.png) center top no-repeat, #373737;
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner__content {
+  width: 49%;
+}
+
+.banner__title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.banner__ginger {
+  color: #ff5400;
+}

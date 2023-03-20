@@ -18,6 +18,10 @@
   height: 36px;
   background: center center no-repeat;
 }
+
+.socials__link:hover {
+  transition: all 0.3s ease-in-out;
+}
 .socials__item--icon--tg .socials__link {
   background-image: url(../../img/socials/tg.png);
 }

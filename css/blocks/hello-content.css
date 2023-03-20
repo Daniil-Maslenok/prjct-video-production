@@ -1,0 +1,22 @@
+
+
+.hello-content__container {
+  background: url(../../img/hello-page/rec.png) center center no-repeat;
+  min-height: 643px;
+  margin: 4% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  opacity: 0;
+  animation: hello-animation 0.7s cubic-bezier(0.15, 1.4, 1, 1.14) 1s both;
+}

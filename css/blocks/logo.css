@@ -1,8 +1,15 @@
 .logo {
   display: inline-block;
+}
+
+.header__logo {
   margin-right: 240px;
 }
 
-.logo--mg--small {
+.footer__logo {
   margin-right: 130px;
+}
+
+.hello-content__logo {
+  margin-bottom: 40px;
 }

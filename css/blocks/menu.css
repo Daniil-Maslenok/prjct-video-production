@@ -8,6 +8,7 @@
 
 .menu__item:hover {
   color: #ff3d00;
+  transition: all 0.3s ease-in-out;
 }
 
 .menu__item:last-child {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
 /* Подключение файла, стандартизирующего отображение контента в браузерах */
 @import url(./layout/normalize.css);
 /* Применение комплекса параметров обнуляющего стиля */
@@ -6,6 +6,10 @@
 
 /* Файл базовых стилей страницы */
 @import url(./layout/base.css);
+
+/* Файл анимаций */
+@import url(./layout/animation.css);
+
 
 /* Шапка */
 @import url(./blocks/header.css);
@@ -38,11 +42,25 @@
 
 @import url(./blocks/top-line.css);
 
+@import url(./blocks/breadcrumbs.css);
+
 @import url(./blocks/page-content.css);
 
 @import url(./blocks/inner-section.css);
 
+@import url(./blocks/partners.css);
 
+/* Привественная страница */
+
+@import url(./blocks/hello-content.css);
+
+/* Страница отзывов */
+
+@import url(./blocks/feedback.css);
+
+@import url(./blocks/banner.css);
+
+@import url(./blocks/form.css);
 
 
 
