@@ -55,13 +55,23 @@
   right: 0;
   top: -30px;
   position: absolute;
-
 }
 
 .contact__dropdown-wrapper:hover .contact__timetable {
   display: block;
   right: 0%;
   opacity: 1;
+}
+
+.contact__triangle {
+  position: absolute;
+  top: -10px;
+  left: 93px;
+  width: 0;
+  height: 0;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-bottom: 10px solid rgba(255, 255, 255, 0.8);
 }
 
 .contact__item {

@@ -21,6 +21,7 @@
   border-radius: 4px;
   background: #fff;
   color: #1A1B1E;
+  border: 1px solid #fff;
 }
 
 .form__input::placeholder {
@@ -36,6 +37,7 @@
 }
 
 .form__input--textarea {
+  width: 100%;
   height: 235px;
 }
 
